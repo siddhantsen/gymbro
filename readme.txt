@@ -14,4 +14,3 @@ Further, the program can design workouts using the responses to a simple 3-5 que
     3. Workout quiz
         - questions will be asked to the user like years of lifting experience, time commitment, and goals (weight loss/gain)
         - will pass the results to the create workout function
-
