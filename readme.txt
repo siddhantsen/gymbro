@@ -7,7 +7,6 @@ Further, the program can design workouts using the responses to a simple 3-5 que
     1. Create workout Function 
         - Program asks the user a few questions that it uses to design a workout.
         - program will use a large database of exercises to combine them into the ideal workout. 
-        - potentially will use AI learning model to find patterns in existing workouts. 
     2. Create diet function
         - uses input from quiz to create a diet/meal plan
         - provides recipes from database of recipes to the user so they can structure their own meal plan
