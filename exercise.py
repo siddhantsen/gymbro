@@ -8,6 +8,11 @@ class Exercise():
 class Workout():
     def __init__(self, list_of_exercises):
         self.list_of_exercises = list_of_exercises
+    
+    def create_workout(quiz_responses_tuple):
+        return None
+
+
 
 ## testing section
 ex1 = Exercise("bench press", "chest")

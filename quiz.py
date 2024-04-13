@@ -4,8 +4,9 @@ def quiz():
     primary_muscle = input("What primary muscle group do you want to target?\n\ta. Chest\n\tb. Back\n\tc. Legs\n\td. Arms\n\te. Core\n\tf. Whole body\n")
     secondary_muscle = input("What secondary muscle group do you want to target\n\ta. Chest\n\tb. Back\n\tc. Legs\n\td. Arms\n\te. Core\n\tf. Whole body\n")
     experience = input("What is your experience level with working out?\n\ta. Beginner\n\tb. Intermediate\n\tc. Advanced\n")
-    return goal, time, primary_muscle, secondary_muscle, experience
+    response_tuple = (goal, time, primary_muscle, secondary_muscle, experience)
 
-g, t, p, s, e = quiz()
-print("{}{}{}{}{}".format(g,t,p,s,e))
+
+response_tuple = quiz()
+print(response_tuple)
 
