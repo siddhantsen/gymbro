@@ -9,8 +9,3 @@ def quiz():
 g, t, p, s, e = quiz()
 print("{}{}{}{}{}".format(g,t,p,s,e))
 
-
-
-
-
-                 
