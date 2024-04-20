@@ -1,3 +1,5 @@
+import pandas
+
 ##exercise class
 class Exercise():
     def __init__(self, name, muscle):
@@ -9,7 +11,9 @@ class Workout():
     def __init__(self, list_of_exercises):
         self.list_of_exercises = list_of_exercises
     
-    def create_workout(quiz_responses_tuple):
+    def create_workout(quiz_responses_tuple=None):
+        exerciseData = pandas.read_csv('exercise_database.csv')
+        print(exerciseData['exercise'])
         return None
 
 
@@ -25,4 +29,6 @@ newWorkout = Workout(exList)
 
 for item in newWorkout.list_of_exercises:
     print("{} {}".format(item.name, item.muscle))
+
+Workout.create_workout()
 
