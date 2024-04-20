@@ -15,6 +15,27 @@ class Workout():
         exerciseData = pandas.read_csv('exercise_database.csv')
         print(exerciseData['exercise'])
         return None
+    
+    def sortDataByMuscle(dataframe, muscle_group):
+        df = dataframe[dataframe['muscle'] == muscle_group]
+        return df
+    
+    def sortDataDifficulty(dataframe, difficulty):
+        df = dataframe[dataframe['difficulty'] == difficulty]
+        return df
+    def pickRandomWorkout(dataframe, muscle_group, difficulty):
+        sortedOnce = Workout.sortDataByMuscle(dataframe, muscle_group)
+        sortedTwice = Workout.sortDataDifficulty(sortedOnce, difficulty)
+
+        random_row = sortedTwice.sample(n=1)
+        name = random_row['exercise']
+        muscle = random_row['muscle']
+        
+        item = Exercise(name, muscle)
+
+        print("{} {}".format(item.name, item.muscle))
+        
+        
 
 
 
@@ -30,5 +51,7 @@ newWorkout = Workout(exList)
 for item in newWorkout.list_of_exercises:
     print("{} {}".format(item.name, item.muscle))
 
+df = pandas.read_csv('exercise_database.csv')
 Workout.create_workout()
+Workout.pickRandomWorkout(df, "chest", "beginner")
 

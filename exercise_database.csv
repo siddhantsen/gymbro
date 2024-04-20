@@ -1,54 +1,54 @@
-exercise," muscle"," difficulty"
-barbell bench press,chest,beginner
-dumbell bench press,chest,beginner
-incline barbell bench press,chest,intermediate
-incline dumbell bench press,chest,intermediate
-push ups,chest,beginner
-chest flys,chest,beginner
-decline barbell bench press,chest,advanced
-machine press,chest,beginner
-incline machine press,chest,beginner
-front grip lat pull down,back,beginner
-reverse grip lat pull down,back,beginner
-chin up,back,beginner
-pull up,back,beginner
-single arm row,back,intermediate
-wide grip row,back,advanced
-reverse grip row,back,intermediate
-deadlift,back,advanced
-rear delt fly,back,advanced
-t bar row,back,advanced
-machine row,back,intermediate
-dumbell shoulder press,shoulder,beginner
-barbell shoulder press,shoulder,intermediate
-machine shoulder press,beginner,intermediate
-lateral raise,shoulder,beginner
-cable lateral raise,shoulder,intermediate
-front raise,shoulder,advanced
-standing barbell curl,bicep,beginner
-standing bicep curl,bicep,beginner
-seated incline bicep curl,bicep,intermediate
-concentration curl,bicep,intermediate
-cable curl,bicep,advanced
-preacher curl,bicep,advanced
-hammer curl,bicep,intermediate
-rope tricep push down,tricep,beginner
-bar tricep pushdown,tricep,intermediate
-samurai extensin,tricep,advanced
-single arm tricep extension,tricep,intermediate
-skullcrusher,tricep,intermediate
-dumbell tricep extension,tricep,intermediate
-back squat,quad,beginner
-front squat,quad,advanced
-bulgarian split squat,quad,intermediate
-romanian deadlift,hamstring,advanced
-split squat,quad,intermediate
-hamstring curl,hamstring,beginner
-leg extension,quad,beginner
-goblet squat,quad,beginner
-jump squat,hamstring,beginner
-weighted jump squat,hamstring,intermediate
-leg press,quad,beginner
-single leg press,quad,intermediate
-seated calf raise,calf,beginner
-standing calf raise,calf,beginner
+exercise,"muscle","difficulty"
+barbell bench press,"chest","beginner"
+dumbell bench press,"chest","beginner"
+incline barbell bench press,"chest","intermediate"
+incline dumbell bench press,"chest","intermediate"
+push ups,"chest","beginner"
+chest flys,"chest","beginner"
+decline barbell bench press,"chest","advanced"
+machine press,"chest","beginner"
+incline machine press,"chest","beginner"
+front grip lat pull down,"back","beginner"
+reverse grip lat pull down,"back","beginner"
+chin up,"back","beginner"
+pull up,"back","beginner"
+single arm row,"back","intermediate"
+wide grip row,"back","advanced"
+reverse grip row,"back","intermediate"
+deadlift,"back","advanced"
+rear delt fly,"back","advanced"
+t bar row,"back","advanced"
+machine row,"back","intermediate"
+dumbell shoulder press,"shoulder","beginner"
+barbell shoulder press,"shoulder","intermediate"
+machine shoulder press,"beginner","intermediate"
+lateral raise,"shoulder","beginner"
+cable lateral raise,"shoulder","intermediate"
+front raise,"shoulder","advanced"
+standing barbell curl,"bicep","beginner"
+standing bicep curl,"bicep","beginner"
+seated incline bicep curl,"bicep","intermediate"
+concentration curl,"bicep","intermediate"
+cable curl,"bicep","advanced"
+preacher curl,"bicep","advanced"
+hammer curl,"bicep","intermediate"
+rope tricep push down,"tricep","beginner"
+bar tricep pushdown,"tricep","intermediate"
+samurai extensin,"tricep","advanced"
+single arm tricep extension,"tricep","intermediate"
+skullcrusher,"tricep","intermediate"
+dumbell tricep extension,"tricep","intermediate"
+back squat,"quad","beginner"
+front squat,"quad","advanced"
+bulgarian split squat,"quad","intermediate"
+romanian deadlift,"hamstring","advanced"
+split squat,"quad","intermediate"
+hamstring curl,"hamstring","beginner"
+leg extension,"quad","beginner"
+goblet squat,"quad","beginner"
+jump squat,"hamstring","beginner"
+weighted jump squat,"hamstring","intermediate"
+leg press,"quad","beginner"
+single leg press,"quad","intermediate"
+seated calf raise,"calf","beginner"
+standing calf raise,"calf","beginner"
