@@ -1,0 +1,17 @@
+This is the GymBro python project
+
+It is a simple tool that can generate workouts for you and help you get started with a diet for fitness goals.
+
+To get started, first install the necessary dependencies in the terminal using one of the below commands
+    pip install -r requirements.txt
+    pip3 install -r requirements.txt
+
+Open the file main.py and in the terminal type one of the below commands
+    python main.py
+    python3 main.py
+
+This will run the main python file, prompting instructions in the terminal
+Follow these instructions and answer the questions to your liking.
+
+Thanks for using GymBro
+
