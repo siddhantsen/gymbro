@@ -86,7 +86,7 @@ class Workout():
     
 
     def sortDataDifficulty(dataframe, difficulty):
-        dataframe['difficulty'] = dataframe['difficulty'].astype(int)
+        dataframe = dataframe.astype({'difficulty': int})
         df = dataframe[dataframe['difficulty'] <= difficulty]
         return df
     

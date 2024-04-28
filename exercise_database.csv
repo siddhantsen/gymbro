@@ -19,25 +19,25 @@ deadlift,"back",2
 rear delt fly,"back",2
 t bar row,"back",2
 machine row,"back",1
-dumbell shoulder press,"shoulder",0
-barbell shoulder press,"shoulder",1
+dumbell shoulder press,"arms",0
+barbell shoulder press,"arms",1
 machine shoulder press,0,1
-lateral raise,"shoulder",0
-cable lateral raise,"shoulder",1
-front raise,"shoulder",2
-standing barbell curl,"bicep",0
-standing bicep curl,"bicep",0
-seated incline bicep curl,"bicep",1
-concentration curl,"bicep",1
-cable curl,"bicep",2
-preacher curl,"bicep",2
-hammer curl,"bicep",1
-rope tricep push down,"tricep",0
-bar tricep pushdown,"tricep",1
-samurai extensin,"tricep",2
-single arm tricep extension,"tricep",1
-skullcrusher,"tricep",1
-dumbell tricep extension,"tricep",1
+lateral raise,"arms",0
+cable lateral raise,"arms",1
+front raise,"arms",2
+standing barbell curl,"arms",0
+standing bicep curl,"arms",0
+seated incline bicep curl,"arms",1
+concentration curl,"arms",1
+cable curl,"arms",2
+preacher curl,"arms",2
+hammer curl,"arms",1
+rope tricep push down,"arms",0
+bar tricep pushdown,"arms",1
+samurai extensin,"arms",2
+single arm tricep extension,"arms",1
+skullcrusher,"arms",1
+dumbell tricep extension,"arms",1
 back squat,"leg",0
 front squat,"leg",2
 bulgarian split squat,"leg",1
