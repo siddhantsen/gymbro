@@ -20,13 +20,14 @@ print(response_tuple)
 exList = []
 newWorkout = Workout()
 
-for item in newWorkout.list_of_exercises:
-    print("{} {}".format(item.name, item.muscle))
 
 
 df = pandas.read_csv('exercise_database.csv')
-responses = ('a', 'a', 'a', 'a', 'a')
-parameters = Workout.get_parameters(responses)
+
+parameters = Workout.get_parameters(response_tuple)
 newWorkout.create_workout(df, parameters)
+for item in newWorkout.list_of_exercises:
+    print("{} {}".format(item.name, item.muscle))
+
 
 

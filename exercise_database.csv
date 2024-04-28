@@ -1,54 +1,54 @@
 exercise,"muscle","difficulty"
-barbell bench press,"chest","beginner"
-dumbell bench press,"chest","beginner"
-incline barbell bench press,"chest","intermediate"
-incline dumbell bench press,"chest","intermediate"
-push ups,"chest","beginner"
-chest flys,"chest","beginner"
-decline barbell bench press,"chest","advanced"
-machine press,"chest","beginner"
-incline machine press,"chest","beginner"
-front grip lat pull down,"back","beginner"
-reverse grip lat pull down,"back","beginner"
-chin up,"back","beginner"
-pull up,"back","beginner"
-single arm row,"back","intermediate"
-wide grip row,"back","advanced"
-reverse grip row,"back","intermediate"
-deadlift,"back","advanced"
-rear delt fly,"back","advanced"
-t bar row,"back","advanced"
-machine row,"back","intermediate"
-dumbell shoulder press,"shoulder","beginner"
-barbell shoulder press,"shoulder","intermediate"
-machine shoulder press,"beginner","intermediate"
-lateral raise,"shoulder","beginner"
-cable lateral raise,"shoulder","intermediate"
-front raise,"shoulder","advanced"
-standing barbell curl,"bicep","beginner"
-standing bicep curl,"bicep","beginner"
-seated incline bicep curl,"bicep","intermediate"
-concentration curl,"bicep","intermediate"
-cable curl,"bicep","advanced"
-preacher curl,"bicep","advanced"
-hammer curl,"bicep","intermediate"
-rope tricep push down,"tricep","beginner"
-bar tricep pushdown,"tricep","intermediate"
-samurai extensin,"tricep","advanced"
-single arm tricep extension,"tricep","intermediate"
-skullcrusher,"tricep","intermediate"
-dumbell tricep extension,"tricep","intermediate"
-back squat,"quad","beginner"
-front squat,"quad","advanced"
-bulgarian split squat,"quad","intermediate"
-romanian deadlift,"hamstring","advanced"
-split squat,"quad","intermediate"
-hamstring curl,"hamstring","beginner"
-leg extension,"quad","beginner"
-goblet squat,"quad","beginner"
-jump squat,"hamstring","beginner"
-weighted jump squat,"hamstring","intermediate"
-leg press,"quad","beginner"
-single leg press,"quad","intermediate"
-seated calf raise,"calf","beginner"
-standing calf raise,"calf","beginner"
+barbell bench press,"chest",0
+dumbell bench press,"chest",0
+incline barbell bench press,"chest",1
+incline dumbell bench press,"chest",1
+push ups,"chest",0
+chest flys,"chest",0
+decline barbell bench press,"chest",2
+machine press,"chest",0
+incline machine press,"chest",0
+front grip lat pull down,"back",0
+reverse grip lat pull down,"back",0
+chin up,"back",0
+pull up,"back",0
+single arm row,"back",1
+wide grip row,"back",2
+reverse grip row,"back",1
+deadlift,"back",2
+rear delt fly,"back",2
+t bar row,"back",2
+machine row,"back",1
+dumbell shoulder press,"shoulder",0
+barbell shoulder press,"shoulder",1
+machine shoulder press,0,1
+lateral raise,"shoulder",0
+cable lateral raise,"shoulder",1
+front raise,"shoulder",2
+standing barbell curl,"bicep",0
+standing bicep curl,"bicep",0
+seated incline bicep curl,"bicep",1
+concentration curl,"bicep",1
+cable curl,"bicep",2
+preacher curl,"bicep",2
+hammer curl,"bicep",1
+rope tricep push down,"tricep",0
+bar tricep pushdown,"tricep",1
+samurai extensin,"tricep",2
+single arm tricep extension,"tricep",1
+skullcrusher,"tricep",1
+dumbell tricep extension,"tricep",1
+back squat,"leg",0
+front squat,"leg",2
+bulgarian split squat,"leg",1
+romanian deadlift,"leg",2
+split squat,"leg",1
+hamstring curl,"leg",0
+leg extension,"leg",0
+goblet squat,"leg",0
+jump squat,"leg",0
+weighted jump squat,"leg",1
+leg press,"leg",0
+single leg press,"leg",1
+seated calf raise,"leg",0
+standing calf raise,"leg",0

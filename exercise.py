@@ -30,7 +30,7 @@ class Workout():
             primary_muscle = "back"
 
         elif (quiz_responses_tuple[2] == 'c'):
-            primary_muscle = "legs"
+            primary_muscle = "leg"
 
         elif (quiz_responses_tuple[2] == 'd'):
             primary_muscle = "arms"
@@ -42,19 +42,19 @@ class Workout():
             secondary_muscle = "back"
 
         elif (quiz_responses_tuple[3] == 'c'):
-            secondary_muscle = "legs"
+            secondary_muscle = "leg"
 
         elif (quiz_responses_tuple[3] == 'd'):
             secondary_muscle = "arms"
 
         ## set difficulty
         if (quiz_responses_tuple[4] == 'a'):
-            difficulty = "beginner"
+            difficulty = 0
         elif (quiz_responses_tuple[4] == 'b'):
-            difficulty = "intermediate"
+            difficulty = 1
 
         elif (quiz_responses_tuple[4] == 'c'):
-            difficulty = "advanced"
+            difficulty = 2
         
         parameters = (size, primary_muscle, secondary_muscle, difficulty)
         return parameters
@@ -86,7 +86,8 @@ class Workout():
     
 
     def sortDataDifficulty(dataframe, difficulty):
-        df = dataframe[dataframe['difficulty'] == difficulty]
+        dataframe['difficulty'] = dataframe['difficulty'].astype(int)
+        df = dataframe[dataframe['difficulty'] <= difficulty]
         return df
     
 
@@ -114,23 +115,5 @@ class Workout():
         
         
 
-
-
-## testing section
-
-exList = []
-newWorkout = Workout()
-
-for item in newWorkout.list_of_exercises:
-    print("{} {}".format(item.name, item.muscle))
-
-
-df = pandas.read_csv('exercise_database.csv')
-responses = ('a', 'a', 'a', 'a', 'a')
-parameters = Workout.get_parameters(responses)
-newWorkout.create_workout(df, parameters)
-
-for item in newWorkout.list_of_exercises:
-    print(item.name)
 
 
