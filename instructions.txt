@@ -13,5 +13,5 @@ Open the file main.py and in the terminal type one of the below commands
 This will run the main python file, prompting instructions in the terminal
 Follow these instructions and answer the questions to your liking.
 
-Thanks for using GymBro
+Thanks for using GymBro!
 
