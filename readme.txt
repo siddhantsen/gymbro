@@ -9,8 +9,8 @@ Further, the program can design workouts using the responses to a simple 3-5 que
         - program will use a large database of exercises to combine them into the ideal workout. 
     2. Create diet function
         - uses input from quiz to create a diet/meal plan
-        - provides recipes from database of recipes to the user so they can structure their own meal plan
-
+        - calculates calories in/out in order to lose weight by a specified time
+        
     3. Workout quiz
         - questions will be asked to the user like years of lifting experience, time commitment, and goals (weight loss/gain)
         - will pass the results to the create workout function
