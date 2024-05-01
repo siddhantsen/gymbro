@@ -106,9 +106,6 @@ def generate_plan(response_tuple):
 
     
 
-sample_tuple = (125, 63, 19, "c", 119, 4)
-print(get_basal_metabolic_rate(sample_tuple))
-generate_plan(sample_tuple)
 
 
 
