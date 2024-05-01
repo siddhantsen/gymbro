@@ -76,7 +76,7 @@ def main():
                 print("{}. {} for {}".format(i, item.name, item.muscle))
             go = endDecision()
         else:
-            print("weight loss stuff here")
+    
             response = weight_quiz()
             generate_plan(response)
             go = endDecision()
