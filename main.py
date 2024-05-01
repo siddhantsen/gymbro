@@ -1,6 +1,8 @@
-import quiz, exercise
+import quiz, exercise, weight_loss_plan
 from quiz import *
 from exercise import *
+from weight_loss_plan import *
+
 
 
 def startDecision():
@@ -24,11 +26,13 @@ def main():
             newWorkout = Workout()
             parameters = Workout.get_parameters(response_tuple)
             newWorkout.create_workout(df, parameters)
-            for item in newWorkout.list_of_exercises:
-                print("{} {}".format(item.name, item.muscle))
+            for i, item in enumerate (newWorkout.list_of_exercises, start=1):
+                print("{}. {} for {}".format(i, item.name, item.muscle))
             go = endDecision()
         else:
             print("weight loss stuff here")
+            response = weight_quiz()
+            generate_plan(response)
             go = endDecision()
 
 
