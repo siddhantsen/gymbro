@@ -1,3 +1,4 @@
+## quiz about weight and goals to gather data
 def weight_quiz():
     ## question 1
     response_validity = False
@@ -73,13 +74,16 @@ def weight_quiz():
     response_tuple = (current_weight, height, age, exercise_level, goal_weight, timeline)
     return response_tuple
 
-    
+
+## calculate basal metabolic rate 
 def get_basal_metabolic_rate(response_tuple):
     current_weight, height, age, exercise_level, goal_weight, timeline = response_tuple
     basal_metabolic_rate = ((9.99 * current_weight) / 2.212) + (6.25 * height * 2.5) - (4.92 * age) + 5
     basal_metabolic_rate = round(basal_metabolic_rate, 1)
     return basal_metabolic_rate
 
+
+## calculate how many calories are burned througha activity level
 def get_calories_burned_through_activity(response_tuple):
     additional_cals = 0
     current_weight, height, age, exercise_level, goal_weight, timeline = response_tuple
@@ -93,8 +97,12 @@ def get_calories_burned_through_activity(response_tuple):
         additional_cals = 1000
     return additional_cals
 
+
+## generate the plan using the calculated values
 def generate_plan(response_tuple):
+    ## load the results
     current_weight, height, age, exercise_level, goal_weight, timeline = response_tuple
+    
     total_burned = get_calories_burned_through_activity(response_tuple) + get_basal_metabolic_rate(response_tuple)
     weight_difference = current_weight - goal_weight
     total_deficit = weight_difference * 3500

@@ -4,7 +4,7 @@ from exercise import *
 from weight_loss_plan import *
 import time
 
-
+## introductory prompts
 def startSequence():
     print("You will be prompted with a series of questions. To answer, simply type your response and press enter.")
     time.sleep(2)
@@ -48,7 +48,7 @@ def startSequence():
 
     
 
-
+### what overall function the user wants to generate
 def startDecision():
     
     decision = input("Would you like to plan a workout or get weight loss tips.\n\ta. workout\n\tb. weight loss\n")
@@ -60,6 +60,8 @@ def endDecision():
         return True
     else:
         return False
+    
+
 def main():
     startSequence()
     go = True

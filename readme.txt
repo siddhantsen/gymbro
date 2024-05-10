@@ -1,3 +1,5 @@
+TO BEGIN USING OPEN THE INSTRUCTIONS.TXT FILE
+
 1. Brief description
 I want to make a workout tool that has a vast database of different exercises and muscle groups.
 The user is able to upload their workouts and the program will make suggestions to improve the workout. 

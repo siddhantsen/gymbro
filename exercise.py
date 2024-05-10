@@ -60,7 +60,7 @@ class Workout():
         return parameters
 
        
-
+    ## create the workout using the other functions
     def create_workout(self, df, parameters):
         
         exerciseData = pandas.read_csv('exercise_database.csv')
@@ -79,25 +79,25 @@ class Workout():
         
         return self.list_of_exercises
     
-    
+    ## sort the dataframe by muscle group
     def sortDataByMuscle(dataframe, muscle_group):
         df = dataframe[dataframe['muscle'] == muscle_group]
         return df
     
-
+    ## sort the dataframe by difficulty
     def sortDataDifficulty(dataframe, difficulty):
         dataframe = dataframe.astype({'difficulty': int})
         df = dataframe[dataframe['difficulty'] <= difficulty]
         return df
     
-
+    ## uses above functions to sort the dataframe by muscle group and difficulty
     def sortData(dataframe, muscle_group, difficulty):
         sortedOnce = Workout.sortDataByMuscle(dataframe, muscle_group)
         sortedTwice = Workout.sortDataDifficulty(sortedOnce, difficulty)
         
         return sortedTwice
 
-        
+    ## picks a random workout given the sorted dataframe   
     def pickRandomWorkout(dataframe, muscle_group, difficulty):
         sorted = Workout.sortData(dataframe, muscle_group, difficulty)
 
